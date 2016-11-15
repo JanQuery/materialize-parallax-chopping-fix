@@ -102,7 +102,7 @@ function parallaxChoppingSolution(){
         
         //detect if sidenav is open
        if ($('#sidenav-overlay').length > 0) {
-            var scrollme = '#side-nav';
+            var scrollme = '#nav-mobile';
         } else {
             var scrollme = 'html, body';
         }
